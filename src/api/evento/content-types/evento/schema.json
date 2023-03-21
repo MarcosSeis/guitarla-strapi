@@ -15,24 +15,40 @@
     "titulo": {
       "type": "string"
     },
-    "contenido": {
+    "detalles": {
       "type": "richtext"
     },
-    "fecha": {
+    "fecha_ini": {
       "type": "date"
     },
     "url": {
       "type": "uid"
     },
     "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "fecha_fin": {
+      "type": "date"
+    },
+    "horario": {
+      "type": "string"
+    },
+    "ubicacion": {
+      "type": "text"
+    },
+    "pagina_evento": {
+      "type": "string"
+    },
+    "calendario": {
+      "type": "string"
     }
   }
 }

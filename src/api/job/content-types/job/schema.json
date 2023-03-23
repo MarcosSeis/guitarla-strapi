@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Jobs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "requisitos": {
+      "type": "richtext"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "sueldo": {
+      "type": "string",
+      "default": "Sueldo no mostrado por la empresa"
+    },
+    "empresa": {
+      "type": "string",
+      "default": "Empresa confidencial"
+    },
+    "ubicacion": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "titulo"
+    }
+  }
+}

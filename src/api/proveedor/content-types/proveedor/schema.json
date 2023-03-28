@@ -4,7 +4,8 @@
   "info": {
     "singularName": "proveedor",
     "pluralName": "proveedores",
-    "displayName": "Proveedores"
+    "displayName": "Proveedores",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,16 @@
     },
     "direccion": {
       "type": "richtext"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
